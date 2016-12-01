@@ -1,9 +1,7 @@
 {
-  "name": "react-material-dashboard",
-  "version": "0.5.1",
-  "description": "Material design admin dashboard powered with React",
+  "name": "AcademyDashboard",
+  "description": "Material design dashboard using React",
   "main": "",
-  "license": "MIT",
   "scripts": {
     "clean": "rimraf dist/*",
     "clean-source": "rimraf README.md src webroot package.json",
@@ -29,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lambda-cdm/react-material-dashboard"
+    "url": "https://github.com/CheolminConanShin/AcademyDashboard"
   },
   "keywords": [
     "react",
@@ -64,7 +62,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.5",
     "karma-webpack": "^1.7.0",
-    "material-ui": "^0.15.0",
+    "material-ui": "^0.16.4",
     "minimist": "^1.2.0",
     "mocha": "^2.2.5",
     "node-sass": "^3.4.2",
@@ -74,11 +72,11 @@
     "phantomjs-prebuilt": "^2.0.0",
     "postcss": "^5.0.11",
     "postcss-loader": "^0.9.1",
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2",
+    "react": "^15.4.1 ",
+    "react-dom": "^15.4.1",
     "react-hot-loader": "^1.2.9",
     "react-router": "^2.4.0",
-    "react-tap-event-plugin": "^1.0.0",
+    "react-tap-event-plugin": "^2.0.1",
     "rimraf": "^2.4.3",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
